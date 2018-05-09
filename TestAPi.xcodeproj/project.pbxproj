@@ -31,6 +31,9 @@
 		8C7879F020A2F53B004B1ADC /* KVCUnderlyingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7879EE20A2F53B004B1ADC /* KVCUnderlyingVC.m */; };
 		8C7879F120A2F53B004B1ADC /* KVCUnderlyingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7879EF20A2F53B004B1ADC /* KVCUnderlyingVC.xib */; };
 		8C7879F420A2F9CA004B1ADC /* KVC_PeopleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7879F320A2F9C9004B1ADC /* KVC_PeopleModel.m */; };
+		8C7879F920A305A1004B1ADC /* KVOUnderlyingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7879F720A305A1004B1ADC /* KVOUnderlyingVC.m */; };
+		8C7879FA20A305A1004B1ADC /* KVOUnderlyingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7879F820A305A1004B1ADC /* KVOUnderlyingVC.xib */; };
+		8C7879FD20A305C1004B1ADC /* KVO_PeopleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7879FC20A305C1004B1ADC /* KVO_PeopleModel.m */; };
 		8C7CD8DA2080502900DF2DA3 /* RuntimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7CD8D82080502900DF2DA3 /* RuntimeVC.m */; };
 		8C7CD8DB2080502900DF2DA3 /* RuntimeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7CD8D92080502900DF2DA3 /* RuntimeVC.xib */; };
 		8C7FF9F9205E92B500CD04B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7FF9F8205E92B500CD04B4 /* AppDelegate.m */; };
@@ -301,6 +304,11 @@
 		8C7879EF20A2F53B004B1ADC /* KVCUnderlyingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KVCUnderlyingVC.xib; sourceTree = "<group>"; };
 		8C7879F220A2F9C9004B1ADC /* KVC_PeopleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVC_PeopleModel.h; sourceTree = "<group>"; };
 		8C7879F320A2F9C9004B1ADC /* KVC_PeopleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVC_PeopleModel.m; sourceTree = "<group>"; };
+		8C7879F620A305A1004B1ADC /* KVOUnderlyingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOUnderlyingVC.h; sourceTree = "<group>"; };
+		8C7879F720A305A1004B1ADC /* KVOUnderlyingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOUnderlyingVC.m; sourceTree = "<group>"; };
+		8C7879F820A305A1004B1ADC /* KVOUnderlyingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KVOUnderlyingVC.xib; sourceTree = "<group>"; };
+		8C7879FB20A305C0004B1ADC /* KVO_PeopleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVO_PeopleModel.h; sourceTree = "<group>"; };
+		8C7879FC20A305C1004B1ADC /* KVO_PeopleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_PeopleModel.m; sourceTree = "<group>"; };
 		8C7CD8D72080502900DF2DA3 /* RuntimeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeVC.h; sourceTree = "<group>"; };
 		8C7CD8D82080502900DF2DA3 /* RuntimeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeVC.m; sourceTree = "<group>"; };
 		8C7CD8D92080502900DF2DA3 /* RuntimeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuntimeVC.xib; sourceTree = "<group>"; };
@@ -756,6 +764,11 @@
 		8C7879F520A302E5004B1ADC /* KVO */ = {
 			isa = PBXGroup;
 			children = (
+				8C7879F620A305A1004B1ADC /* KVOUnderlyingVC.h */,
+				8C7879F720A305A1004B1ADC /* KVOUnderlyingVC.m */,
+				8C7879F820A305A1004B1ADC /* KVOUnderlyingVC.xib */,
+				8C7879FB20A305C0004B1ADC /* KVO_PeopleModel.h */,
+				8C7879FC20A305C1004B1ADC /* KVO_PeopleModel.m */,
 			);
 			path = KVO;
 			sourceTree = "<group>";
@@ -1568,6 +1581,7 @@
 				8C928AF32074C64C0021527B /* ermilio_q15.bpg in Resources */,
 				8C928AEF2074C64C0021527B /* cube@2x.png in Resources */,
 				8C7FFA04205E92B500CD04B4 /* LaunchScreen.storyboard in Resources */,
+				8C7879FA20A305A1004B1ADC /* KVOUnderlyingVC.xib in Resources */,
 				8C928AFD2074C64C0021527B /* dribbble64_imageio.png in Resources */,
 				8C928AF62074C64C0021527B /* ermilio.png in Resources */,
 				8C998820206A380F00F5967A /* DataTaskTestVC.xib in Resources */,
@@ -1642,6 +1656,7 @@
 				8C92891B2074B7990021527B /* YYAsyncLayer.m in Sources */,
 				8C928B152074D4F40021527B /* YYAppDelegate.m in Sources */,
 				8C928A762074C4920021527B /* YYTextMarkdownExample.m in Sources */,
+				8C7879FD20A305C1004B1ADC /* KVO_PeopleModel.m in Sources */,
 				8C9288E82074B7990021527B /* YYTextView.m in Sources */,
 				8C9288F62074B7990021527B /* YYTextParser.m in Sources */,
 				8C7FF9FC205E92B500CD04B4 /* ViewController.m in Sources */,
@@ -1749,6 +1764,7 @@
 				8C7FFA07205E92B500CD04B4 /* main.m in Sources */,
 				8C9288EC2074B7990021527B /* YYTextInput.m in Sources */,
 				8C9288212074A8F40021527B /* RunLoopVC.m in Sources */,
+				8C7879F920A305A1004B1ADC /* KVOUnderlyingVC.m in Sources */,
 				8C9288F22074B7990021527B /* YYLabel.m in Sources */,
 				8C9289212074B7990021527B /* YYGestureRecognizer.m in Sources */,
 				8C92891A2074B7990021527B /* YYWeakProxy.m in Sources */,

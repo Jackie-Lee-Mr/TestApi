@@ -42,7 +42,7 @@
  
      3.优先查找 _name,_isName,name,isName,上述都没有的话
  
-     0.valueForUndefinedKey ,抛出异常。
+     0. -(void)setValue:value forUndefinedKey: key 抛出异常
  
  
  */
